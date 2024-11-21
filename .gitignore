@@ -1,22 +1,29 @@
-# Byte-compiled / optimized / DLL files
+# Ignore virtual environments
+.venv/
+env/
+Web_Traffic_venv/
+
+# Ignore Python cache files
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
 
-# Virtual environment
-venv/
-.env
-.env.local
-.nenv
-.Web_Traffic_venv
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
+# Ignore logs and temporary files
+*.log
+*.tmp
 
+# Ignore data files
+*.csv
+*.zip
+*.json
 
-# VS Code directory
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
 .vscode/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Operating system files
-Thumbs.db # Windows-specific files
+*.code-workspace
