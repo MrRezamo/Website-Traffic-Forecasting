@@ -8,17 +8,17 @@ By leveraging SARIMA, the project provides reliable forecasts that can be used f
 
 ## Key Features
 
-**Exploratory Data Analysis (EDA):**
+1. **Exploratory Data Analysis (EDA):**
 
 - Identified trends, seasonality, and anomalies in daily traffic.
 - Visualized patterns using time series decomposition and autocorrelation plots.
 
-**Modeling with SARIMA:**
+2. **Modeling with SARIMA:**
 
 - Captured weekly seasonality and long-term trends in traffic.
 - Used parameter tuning and diagnostics to optimize the model's performance.
 
-**Forecasting:**
+3. **Forecasting:**
 
 - Forecasted website traffic for the next 30 days, aligned with seasonal and trend components.
 
@@ -74,7 +74,7 @@ By leveraging SARIMA, the project provides reliable forecasts that can be used f
 
 - Forecast:
 
-- The forecast aligned with historical patterns, demonstrating reliable performance for short-term predictions.
+  - The forecast aligned with historical patterns, demonstrating reliable performance for short-term predictions.
 
 ## Key Visualizations
 
@@ -88,37 +88,38 @@ By leveraging SARIMA, the project provides reliable forecasts that can be used f
 
 - Forecast Plot:
 
-      * Displayed predicted traffic alongside observed values.
+  - Displayed predicted traffic alongside observed values.
 
-  ## Future Improvements
+## Future Improvements
 
-  1. Incorporate External Variables:
+1. Incorporate External Variables:
 
-  - Include holidays, marketing events, or promotions as explanatory variables to improve accuracy.
+- Include holidays, marketing events, or promotions as explanatory variables to improve accuracy.
 
-  2. Address Residual Outliers:
+2. Address Residual Outliers:
 
-  - Investigate causes of outliers and adjust the model accordingly.
+- Investigate causes of outliers and adjust the model accordingly.
 
-  3. Experiment with Advanced Models:
+3. Experiment with Advanced Models:
 
-  - Explore machine learning approaches (e.g., LSTM, Prophet) for comparison.
+- Explore machine learning approaches (e.g., LSTM, Prophet) for comparison.
 
-  ## Technologies Used
+## Technologies Used
 
-  - **Python**: Primary language for analysis and modeling.
+- **Python**: Primary language for analysis and modeling.
 
-  - Libraries:
+- Libraries:
 
-    - `pandas`, `numpy`: Data manipulation and analysis.
-    - `matplotlib`, `seaborn`: Visualization.
-    - `statsmodels`: SARIMA modeling and diagnostics.
+  - `pandas`, `numpy`: Data manipulation and analysis.
+  - `matplotlib`, `seaborn`: Visualization.
+  - `statsmodels`: SARIMA modeling and diagnostics.
 
 ## How to Run the Project
 
 1. Clone the repository:
 
 `git clone https://github.com/your-username/website-traffic-forecasting.git`
+
 `cd website-traffic-forecasting`
 
 2. Install dependencies:
